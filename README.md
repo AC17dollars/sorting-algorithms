@@ -7,3 +7,7 @@ Keeps shuffling the array until sorted.
 
 ## Bubble Sort
 Keeps checking two subsequent data until the extreme value ends up at either one of extreme end. Repeat until everything is sorted.
+
+### TO-DO & LEARN
+- Quick Sort <br>
+- Merge Sort
