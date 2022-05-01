@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 int partition(int arr[], int left, int right);
-int quick_sort(int arr[], int left, int right);
-int swap(int *a, int *b);
+void quick_sort(int arr[], int left, int right);
+void swap(int *a, int *b);
 
 int main()
 {
@@ -18,7 +18,7 @@ int main()
     return 0;
 }
 
-int quick_sort(int arr[], int left, int right)
+void quick_sort(int arr[], int left, int right)
 {
     int pivot;
     if (left < right)
@@ -45,7 +45,7 @@ int partition(int arr[], int low, int high)
     return pivotIndex;
 }
 
-int swap(int *a, int *b)
+void swap(int *a, int *b)
 {
     int temp = *a;
     *a = *b;
