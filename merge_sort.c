@@ -55,6 +55,5 @@ void merge(int arr[], int start, int mid, int end){
     //copy temp to the actual array
     for(int i = start; i <= end; i++){
         arr[i] = temp[i-start];
-        k++;
     }
 }
